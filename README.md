@@ -1,4 +1,4 @@
-# Periskope - Assignment repo for `candidate`
+# Periskope - Assignment repo for `Karan S`
 
 This is an assignment to for a full-stack engineer role at Periskope. It is designed to test your comfort with core elements of our stack.
 
