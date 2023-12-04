@@ -30,3 +30,7 @@ Please replicate the UI screen to the best of your capabilities
 - Add any instructions, envs, etc. for me to run this locally
 - Deploy it onto vercel, and send the deployment link
 - For any questions, please reach out to me at [https://what.sapp.link/bharat](what.sapp.link/bharat)
+
+
+NEXT_PUBLIC_SUPABASE_URL = https://psqetfjdbrzxauzwevbe.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzcWV0ZmpkYnJ6eGF1endldmJlIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwMTQ0NTE0MCwiZXhwIjoyMDE3MDIxMTQwfQ.IL0UbPGcUOS04mVz-djeliJcb2c7DGFXKAyES_KB2L4

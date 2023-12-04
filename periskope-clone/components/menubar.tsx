@@ -3,12 +3,12 @@ export default function Menubar() {
   return (
     <nav
       id="sidenav-1"
-      className="absolute left-0 top-0 z-[1035] h-full w-60 -translate-x-full overflow-hidden bg-white data-[te-sidenav-hidden='false']:translate-x-0 border-r border-gray-200 py-3 px-4"
+      className="absolute left-0 top-0 z-[1035] h-full w-60 -translate-x-full overflow-hidden bg-white data-[te-sidenav-hidden='false']:translate-x-0 border-r border-gray-200 py-3 px-3"
       data-te-sidenav-init
       data-te-sidenav-hidden="false"
       data-te-sidenav-position="absolute"
     >
-      <div className="user flex flex-wrap flex-row items-center mb-5">
+      <div className="user flex flex-wrap flex-row items-center mb-5 px-3">
         <Image
           src="/logo.webp"
           width={30}
@@ -23,7 +23,7 @@ export default function Menubar() {
       </div>
       <div>
         <ul className="font-medium text-sm text-gray-600">
-          <li className="flex flex-wrap flex-row py-3">
+          <li className="flex flex-wrap flex-row py-3 px-3">
             <svg
               xmlns="http://www.w3.org/2000/svg p-y"
               viewBox="0 0 20 20"
@@ -38,7 +38,7 @@ export default function Menubar() {
             </svg>
             <span>Dashboard</span>
           </li>
-          <li className="flex flex-wrap flex-row py-3">
+          <li className="flex flex-wrap flex-row py-3 px-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -53,7 +53,7 @@ export default function Menubar() {
             </svg>
             <span>Chats</span>
           </li>
-          <li className="flex flex-wrap flex-row py-3">
+          <li className="flex flex-wrap flex-row py-3 px-3 rounded-lg bg-gray-100 text-green-700 font-bold active">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -64,7 +64,7 @@ export default function Menubar() {
             </svg>
             <span>Groups</span>
           </li>
-          <li className="flex flex-wrap flex-row py-3">
+          <li className="flex flex-wrap flex-row py-3 px-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -79,7 +79,7 @@ export default function Menubar() {
             </svg>
             <span>Contacts</span>
           </li>
-          <li className="flex flex-wrap flex-row py-3">
+          <li className="flex flex-wrap flex-row py-3 px-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -95,7 +95,7 @@ export default function Menubar() {
             </svg>
             <span>Logs</span>
           </li>
-          <li className="flex flex-wrap flex-row py-3">
+          <li className="flex flex-wrap flex-row py-3 px-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"

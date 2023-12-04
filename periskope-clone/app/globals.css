@@ -16,19 +16,17 @@
   }
 }
 
-body {
-  .scrollit {
-    height: calc(100vh - 150px);
-    overflow-y: scroll;
-  }
+.scrollit {
+  height: calc(100vh - 150px);
+  overflow-y: scroll;
+}
 
-  .scrollit::-webkit-scrollbar {
-    border-radius: 20px;
-    width: 10px;
-  }
+.scrollit::-webkit-scrollbar {
+  border-radius: 20px;
+  width: 10px;
+}
 
-  .scrollit::-webkit-scrollbar-thumb {
-    border-radius: 20px;
-    background-color: #ccc;
-  }
+.scrollit::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #ccc;
 }

@@ -24,7 +24,7 @@ export default function GroupsTable() {
   return (
     <>
       {groups.length > 0 ? (
-        <div className="px-60">
+        <div className="pl-60 pr-96">
           <div className="py-2 px-4 bg-gray-50 border-b border-gray-200 relative flex justify-between">
             <div className="flex searchBar">
               <input
